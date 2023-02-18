@@ -50,7 +50,7 @@ class Auto:
         contador = 0
         for n in self.asientos:
             if n != None:
-                cont+=1
+                contador+=1
         return contador
     
     def verificarIntegridad(self):
